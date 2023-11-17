@@ -48,7 +48,7 @@ console.log(abrirElMenu)
         </ul>
       </nav>
       {abrirmenu && (
-      <ul className="flex flex-col jus w-full text-left gap-4  p-4 rounded-bl-xl rounded-br-xl shadow h-96 ">
+      <ul className="flex flex-col jus w-full text-left gap-4  p-4 rounded-bl-xl rounded-br-xl shadow  absolute bottom-0 top-[5rem] bg-[#0e0e0e]">
           <li>
             <Link className="text-white text-2xl md:cursor-pointer hover:text-teal-400" href={"/"}>
               Inicio
