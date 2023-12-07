@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Botones from "@/components/Botones"
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+        <Botones />
         </body>
     </html>
   )
