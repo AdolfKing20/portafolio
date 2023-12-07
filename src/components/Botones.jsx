@@ -16,7 +16,7 @@ function Botones() {
                 </Link>
             </div>
             <div className='p-4 bg-slate-200 hover:bg-[#479ec1] rounded-full'>
-                <Link href={"/"} className='text-4xl text-[#0e0e0e] hover:text-slate-100'>
+                <Link href={"#about"} className='text-4xl text-[#0e0e0e] hover:text-slate-100'>
                 <span>
                 <PiUserListFill />
                 </span>

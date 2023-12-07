@@ -4,9 +4,9 @@ import Index from '@/components/Index'
 
 export default function Home() {
   return (
-    <main className="max-w-5xl m-auto">
+    <main className="max-w-5xl m-auto ">
       <Index />
-      
+
     </main>
   )
 }
