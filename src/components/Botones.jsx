@@ -23,7 +23,7 @@ function Botones() {
                 </Link>
             </div>
             <div className='p-4 bg-slate-200 hover:bg-[#479ec1] rounded-full'>
-                <Link href={"/"} className='text-3xl  text-[#0e0e0e] hover:text-slate-100'>
+                <Link href={"#proyectos"} className='text-3xl  text-[#0e0e0e] hover:text-slate-100'>
                 <span>
                 <FaBriefcase />
                 </span>

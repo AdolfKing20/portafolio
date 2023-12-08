@@ -1,13 +1,16 @@
+"use client"
+
 import Image from "next/image";
 import yo from "../../public/image/yo.jpg";
 import Link from "next/link";
+import { useState } from "react";
 import { FaGithub, FaCss3Alt, FaDatabase  } from "react-icons/fa6";
-import { FaLinkedin, FaHtml5 } from "react-icons/fa";
+import { FaLinkedin, FaHtml5, FaLocationArrow } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss, SiTypescript   } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { TbBrandNextjs } from "react-icons/tb";
-
+import { TbBrandNextjs, TbTargetArrow  } from "react-icons/tb";
 function Index() {
+  const [hovered, setHovered] = useState(false);
   return (
     <>
       <section className="flex flex-col md:flex-row md:items-center justify-center md:m-auto md:gap-5 h-screen" id="home">
@@ -50,7 +53,7 @@ function Index() {
       </section>
 
       <section className="md:h-screen px-4 md:flex  md:items-center gap-4 text-[#fdfdfd] relative before:absolute before:w-96 before:h-96 before:bg-gray-400/20 before:blur-3xl before:top-4 before:left-[-8rem] before:rounded-full
-      
+
       after:absolute after:w-96 after:h-52 after:bg-cyan-400/20 after:blur-3xl after:bottom-4 after:right-[-10rem] after:rounded-full" id="about">
 
 
@@ -62,7 +65,7 @@ function Index() {
               </h2>
             </div>
             <p className="text-gray-400 text-sm md:text-xl">Soy un Desarrollador Frontend con experiencia intermedia en diversas tecnologías frontend, complementada con conocimientos básicos en el ámbito del backend. Mi enfoque como autodidacta me impulsa constantemente a explorar nuevas oportunidades de aprendizaje, perfeccionando así mis habilidades como programador. Estoy comprometido con la evolución continua, siempre en busca de desafíos que amplíen mis conocimientos y contribuyan al desarrollo de soluciones innovadoras.</p>
-            
+
           </div>
 
           <div className="flex flex-col gap-4 mt-8 md:m-0 flex-1">
@@ -95,7 +98,7 @@ function Index() {
                     <span className="text-slate-400 text-xl md:text-2xl"> <GrMysql /> </span>
                     <span className="uppercase font-medium text-sm">My Sql</span>
                   </div>
-                  
+
                 </div>
               </div>
             </li>
@@ -142,16 +145,100 @@ function Index() {
                 </time>
                 <h3 className="font-semibold text-quin">Actualmente</h3>
                 <p className="mb-4 text-sm font-normal text-sixth opacity-75"> Consegui mi primer trabajo como desarollador, y sigo aprendiendo nuevas habidades </p>
-                
+
               </div>
             </li>
           </ul>
         </div>
         </section>
-
-
-        
       </section>
+
+
+
+
+
+
+        <section className="h-screen w-full px-4 flex  items-center" id="proyectos">
+          <div className="w-full">
+            <div className="relative">
+              <h2 className="text-white text-3xl font-bold before:absolute before:w-2 before:h-2 before:rounded-full before:bg-sky-500 before:bottom-[.5rem] before:left-[9.28rem]">Proyectos</h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+
+              {/* card */}
+
+
+              <Link href={"https://tienda-shopix-utn.vercel.app/"} target="_blank" className="block relative group border-2 border-gray-700 hover:border-gray-300/30 rounded-xl shadow_translate-transition hover:sm:shadow sm:hover:-translate-y-1 text-gray-200 " onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}>
+    <span className={`text-gray-500 text-2xl  absolute right-4 top-3 transition-all ${
+      hovered ? 'block' : 'hidden'
+    }`}>
+    <TbTargetArrow  />
+    </span>
+                <div className="px-6 py-6">
+                  <h3 className="text-slate-200"> Tienda Shopix</h3>
+                  <p className="text-slate-400">Emulacion de tienda web</p>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+                  <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2">
+                      <span className="text-2xl md:text-2xl"> <TbBrandNextjs /> </span>
+                      <span className="uppercase font-medium text-sm">Next Js</span>
+                    </div>
+
+                    <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2 ">
+                      <span className="text-sky-500 text-lg md:text-2xl"> <FaDatabase   /> </span>
+                      <span className="uppercase font-medium text-sm">Data Base</span>
+                    </div>
+
+                    <div className="flex bg-gray-800 md:px-3 items-center py-2 px-2 md:py-2 rounded-2xl gap-2">
+                      <span className="text-sky-500 text-xl"> <SiTypescript    /> </span>
+                      <span className="uppercase font-medium text-sm">TypeScript</span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+
+              {/* Fin card */}
+              {/* card */}
+
+
+              <Link href={"#"} target="_blank" className="block relative group border-2 border-gray-700 hover:border-gray-300/30 rounded-xl shadow_translate-transition hover:sm:shadow sm:hover:-translate-y-1 text-gray-200 " onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}>
+    <span className={`text-gray-500 text-2xl  absolute right-4 top-3 transition-all ${
+      hovered ? 'block' : 'hidden'
+    }`}>
+    <TbTargetArrow  />
+    </span>
+                <div className="px-6 py-6">
+                  <h3 className="text-slate-200"> Netflix Clone</h3>
+                  <p className="text-slate-400">Clonacion de netflix</p>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+                  <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2">
+                      <span className="text-2xl md:text-2xl"> <TbBrandNextjs /> </span>
+                      <span className="uppercase font-medium text-sm">Next Js</span>
+                    </div>
+
+                    <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2 ">
+                      <span className="text-sky-500 text-lg md:text-2xl"> <FaDatabase   /> </span>
+                      <span className="uppercase font-medium text-sm">Data Base</span>
+                    </div>
+
+                    <div className="flex bg-gray-800 md:px-3 items-center py-2 px-2 md:py-2 rounded-2xl gap-2">
+                      <span className="text-sky-500 text-xl"> <SiTypescript    /> </span>
+                      <span className="uppercase font-medium text-sm">TypeScript</span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+
+              {/* Fin card */}
+
+
+            </div>
+          </div>
+        </section>
     </>
   );
 }
