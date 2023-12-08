@@ -6,7 +6,7 @@ import { FaBriefcase } from "react-icons/fa6";
 
 function Botones() {
   return (
-    <div className='hidden md:fixed md:top-4 md:right-28 md:h-screen md:flex md:items-center'>
+    <div className='hidden xl:fixed xl:top-4 xl:right-28 xl:h-screen xl:flex xl:items-center'>
         <div className='flex flex-col gap-4'>
             <div className='p-4 bg-slate-200 hover:bg-[#479ec1] rounded-full'>
                 <Link href={"/"} className='text-4xl text-[#0e0e0e] hover:text-slate-100'>
