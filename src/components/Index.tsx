@@ -158,7 +158,9 @@ function Index() {
 
 
 
-        <section className="h-screen w-full px-4 flex  items-center" id="proyectos">
+        <section className="h-screen w-full px-4 flex  items-center relative before:absolute before:h-96 before:top-0 before:left-[-10rem] before:bg-cyan-600/5 before:w-96 before:rounded-full before:blur-3xl
+        
+        after:absolute after:h-96 after:bottom-0 after:right-[-13rem] after:bg-slate-100/5 after:w-96 after:rounded-full after:blur-3xl" id="proyectos">
           <div className="w-full">
             <div className="relative">
               <h2 className="text-white text-3xl font-bold before:absolute before:w-2 before:h-2 before:rounded-full before:bg-sky-500 before:bottom-[.5rem] before:left-[9.28rem]">Proyectos</h2>
