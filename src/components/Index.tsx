@@ -52,7 +52,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="md:h-screen overflow-hidden px-4 md:flex  md:items-center gap-4 text-[#fdfdfd] relative before:absolute before:w-96 before:h-96 before:bg-gray-400/20 before:blur-3xl before:top-4 before:left-[-8rem] before:rounded-full
+      <section className="md:h-screen  px-4 md:flex  md:items-center gap-4 text-[#fdfdfd] relative before:absolute before:w-96 before:h-96 before:bg-gray-400/20 before:blur-3xl before:top-4 before:left-[-8rem] before:rounded-full
 
       after:absolute after:w-96 after:h-52 after:bg-cyan-400/20 after:blur-3xl after:bottom-4 after:right-[-10rem] after:rounded-full" id="about">
 
@@ -158,7 +158,7 @@ function Index() {
 
 
 
-        <section className="h-screen w-full px-4 flex overflow-hidden items-center relative before:absolute before:h-96 before:top-0 before:left-[-10rem] before:bg-cyan-600/5 before:w-96 before:rounded-full before:blur-3xl
+        <section className="h-screen w-full px-4 flex  items-center relative before:absolute before:h-96 before:top-0 before:left-[-10rem] before:bg-cyan-600/5 before:w-96 before:rounded-full before:blur-3xl
         
         after:absolute after:h-96 after:bottom-0 after:right-[-13rem] after:bg-slate-100/5 after:w-96 after:rounded-full after:blur-3xl" id="proyectos">
           <div className="w-full">
