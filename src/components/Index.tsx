@@ -25,7 +25,7 @@ function Index() {
           </h2>
           <div className="flex flex-col gap-4   items-center mt-5">
             <Link
-              href={"#"}
+              href={"#about"}
               className="px-16  py-3  text-[#fdfdfd] font-light uppercase border border-[#479ec1] rounded-xl hover:bg-[#479ec1]"
             >
               Sobre mi
