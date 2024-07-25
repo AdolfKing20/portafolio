@@ -205,7 +205,7 @@ function Index() {
               {/* card */}
 
 
-              <Link href={"#"} target="_blank" className="block relative group border-2 border-gray-700 hover:border-gray-300/30 rounded-xl shadow_translate-transition hover:sm:shadow sm:hover:-translate-y-1 text-gray-200 " onMouseEnter={() => setHovered(true)}
+              <Link href={"https://netflow.vercel.app/"} target="_blank" className="block relative group border-2 border-gray-700 hover:border-gray-300/30 rounded-xl shadow_translate-transition hover:sm:shadow sm:hover:-translate-y-1 text-gray-200 " onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}>
     <span className={`text-gray-500 text-2xl  absolute right-4 top-3 transition-all ${
       hovered ? 'block' : 'hidden'
