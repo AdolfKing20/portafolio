@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <footer className='w-full h-[50vh]'>
+    {/* <footer className='w-full h-[50vh]'>
         <section className='max-w-5xl px-4'>
             <div>
             <h2 className='text-white font-semibold text-2xl text-center'>Contactame</h2>
@@ -16,7 +16,7 @@ function Footer() {
                 </form>
             </div>
         </section>
-    </footer>
+    </footer> */}
     </>
   )
 }

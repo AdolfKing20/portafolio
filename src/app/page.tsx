@@ -7,7 +7,7 @@ import Experience from "@/components/Experience"
 
 export default function Home() {
   return (
-    <main className="max-w-5xl m-auto overflow-hidden xl:overflow-visible">
+    <main className="max-w-4xl m-auto overflow-hidden xl:overflow-visible">
       <Index />
       <Experience />
       <Proyects />

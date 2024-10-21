@@ -5,20 +5,20 @@ function Index() {
  
   return (
     <>
-      <section className="h-dvh flex items-center px-4 text-white" id="home">
+      <section className="h-dvh flex items-center px-16 text-white" id="home">
 
-        <div className="md:px-16">
+        <div className="">
           <div className="flex  items-center gap-3 mb-4">
             <picture className=" rounded-full border-sky-600 border-2">
-              <img src="/rodridev.png" alt="rodridev" className="w-auto h-16"/>
+              <img src="/rodridev.png" alt="rodridev" className="w-auto h-16 md:h-20"/>
             </picture>
-            <button className="py-1 px-2 bg-sky-950 w-max rounded-3xl border border-sky-600">
+            <button className="py-1 px-2 md:py-2 md:px-4 bg-sky-950 w-max rounded-3xl border border-sky-600">
               <Link href={"/"}>
-                <span className=" text-sm">Disponible para trabajar</span>
+                <span className=" text-sm md:text-base">Disponible para trabajar</span>
               </Link>
             </button>
           </div>
-          <h2 className="text-2xl lato-black-italic">Hola!, soy rodridev</h2>
+          <h2 className="text-2xl lato-black-italic md:text-3xl relative after:absolute after:w-32 after:h-1 after:-bottom-1 after:rounded-full after:right-1 w-max after:bg-sky-400">Hola!, soy rodridev</h2>
           <h3 className="mt-4 text-xl lato-light-italic text-slate-200/80">Desarrollador Frontend de 23 años, con experiencia intermedia en tecnologías frontend y conocimientos básicos de backend. Como autodidacta, siempre busco nuevas oportunidades de aprendizaje y desafíos que impulsen mi crecimiento y contribuyan a soluciones innovadoras.</h3>
           <div className="flex gap-3 mt-4">
             <button className="py-1 px-2 bg-sky-950 w-max rounded-3xl border border-sky-600">
