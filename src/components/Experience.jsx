@@ -7,7 +7,7 @@ import { GrMysql } from "react-icons/gr";
 function Experience() {
   return (
     <>
-    <section className=" px-16 md:flex  md:items-center gap-4 text-[#fdfdfd] relative" id="about">
+    <section className=" px-4 md:px-16 md:flex  md:items-center gap-4 text-[#fdfdfd] relative" id="about">
 
 
 <section>

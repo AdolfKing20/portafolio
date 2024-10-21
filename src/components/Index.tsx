@@ -5,7 +5,7 @@ function Index() {
  
   return (
     <>
-      <section className="h-dvh flex items-center px-16 text-white" id="home">
+      <section className="h-dvh flex items-center px-4 md:px-16 text-white" id="home">
 
         <div className="">
           <div className="flex  items-center gap-3 mb-4">
