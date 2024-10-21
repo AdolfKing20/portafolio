@@ -13,7 +13,7 @@ function Index() {
               <img src="/rodridev.png" alt="rodridev" className="w-auto h-16 md:h-20"/>
             </picture>
             <button className="py-1 px-2 md:py-2 md:px-4 bg-sky-950 w-max rounded-3xl border border-sky-600">
-              <Link href={"/"}>
+              <Link href={"mailto:rodrigogfxs@gmail.com"}>
                 <span className=" text-sm md:text-base">Disponible para trabajar</span>
               </Link>
             </button>
@@ -22,18 +22,18 @@ function Index() {
           <h3 className="mt-4 text-xl lato-light-italic text-slate-200/80">Desarrollador Frontend de 23 años, con experiencia intermedia en tecnologías frontend y conocimientos básicos de backend. Como autodidacta, siempre busco nuevas oportunidades de aprendizaje y desafíos que impulsen mi crecimiento y contribuyan a soluciones innovadoras.</h3>
           <div className="flex gap-3 mt-4">
             <button className="py-1 px-2 bg-sky-950 w-max rounded-3xl border border-sky-600">
-            <Link href={""} className="flex items-center gap-2 text-xl">
+            <Link href={"https://www.linkedin.com/in/rodrigo-gimenez-83122a26b/"} className="flex items-center gap-2 text-xl">
             <FaLinkedin /> 
             </Link>
             </button>
             <button className="py-1 px-2 bg-sky-950 w-max rounded-3xl border border-sky-600">
-            <Link href={""} className="flex items-center gap-2 text-xl">
+            <Link href={"https://github.com/AdolfKing20"} className="flex items-center gap-2 text-xl">
             <FaGithub /> 
             </Link>
             </button>
             <button className="py-1 px-2 bg-sky-950 w-max rounded-3xl border border-sky-600">
-            <Link href={""} className="flex items-center gap-2 text-xl">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round"  className="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg> Contactame
+            <Link href={"mailto:rodrigogfxs@gmail.com"} className="flex items-center gap-2 text-xl">
+            <svg    width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round"  className="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg> Contactame
             </Link>
             </button>
           </div>
