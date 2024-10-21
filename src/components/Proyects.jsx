@@ -31,25 +31,22 @@ function Proyects() {
     }`}>
     <TbTargetArrow  />
     </span>
-                <div className="px-6 pb-6 pt-4 ">
-                  <img src="/image/tiendaweb.png" alt=" tienda shopix" />
-                  <div>
+                <div className="px-6 pb-6 pt-5 grid grid-cols-6 gap-4">
+                  <img src="/image/tiendaweb.png" alt=" tienda shopix" className='col-span-2 w-full h-full object-cover '/>
+                  <div className='col-span-3'>
                     <h3 className="text-slate-200"> Tienda Shopix</h3>
                     <p className="text-slate-400">Emulacion de tienda web</p>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-                    <div className="flex w-max bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2">
+                    <div className="flex   gap-2 mt-4">
+                    <div className="flex  bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-full gap-2">
                         <span className="text-2xl md:text-2xl"> <TbBrandNextjs /> </span>
-                        <span className="uppercase font-medium text-sm">Next Js</span>
                       </div>
                     
-                      <div className="flex w-max bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2 ">
-                        <span className="text-sky-500 text-lg md:text-2xl"> <FaDatabase   /> </span>
-                        <span className="uppercase font-medium text-sm">Data Base</span>
+                      <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-full gap-2 ">
+                        <span className="text-sky-500 text-lg md:text-2xl"> <FaDatabase/></span>
                       </div>
                     
-                      <div className="flex w-max bg-gray-800 md:px-3 items-center py-2 px-2 md:py-2 rounded-2xl gap-2">
-                        <span className="text-sky-500 text-xl"> <SiTypescript    /> </span>
-                        <span className="uppercase font-medium text-xs">TypeScript</span>
+                      <div className="flex  bg-gray-800 md:px-3 items-center py-2 px-2 md:py-2 rounded-full gap-2">
+                        <span className="text-sky-500 text-xl" title='TypeScript'> <SiTypescript/></span>
                       </div>
                     </div>
                   </div>
@@ -68,24 +65,23 @@ function Proyects() {
     }`}>
     <TbTargetArrow  />
     </span>
-                <div className="px-6 pb-6 pt-4">
-                  <img src="/image/netflixweb.png" alt="netflix clone" />
-                  <h3 className="text-slate-200"> Netflix Clone</h3>
-                  <p className="text-slate-400">Clonacion de netflix</p>
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-                  <div className="flex bg-gray-800 w-max md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2">
-                      <span className="text-2xl md:text-2xl"> <TbBrandNextjs /> </span>
-                      <span className="uppercase font-medium text-sm">Next Js</span>
-                    </div>
-
-                    <div className="flex bg-gray-800 w-max md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2 ">
-                      <span className="text-sky-500 text-lg md:text-2xl"> <FaDatabase   /> </span>
-                      <span className="uppercase font-medium text-sm">Data Base</span>
-                    </div>
-
-                    <div className="flex bg-gray-800 w-max md:px-3 items-center py-2 px-2 md:py-2 rounded-2xl gap-2">
-                      <span className="text-sky-500 text-xl"> <SiTypescript    /> </span>
-                      <span className="uppercase font-medium text-xs">TypeScript</span>
+                <div className="px-6 pb-6 pt-4 grid grid-cols-6 gap-4">
+                  <img src="/image/netflixweb.png" alt="netflix clone" className='col-span-2 w-full h-full object-cover ' />
+                  <div className='col-span-3'>
+                    <h3 className="text-slate-200"> Netflix Clone</h3>
+                    <p className="text-slate-400">Clonacion de netflix</p>
+                    <div className="flex  gap-2 mt-4">
+                    <div className="flex bg-gray-800 w-max md:px-3 items-center py-1 px-2 md:py-2 rounded-full gap-2">
+                        <span className="text-2xl md:text-2xl"> <TbBrandNextjs/></span>
+                      </div>
+                    
+                      <div className="flex bg-gray-800 w-max md:px-3 items-center py-1 px-2 md:py-2 rounded-full gap-2 ">
+                        <span className="text-sky-500 text-lg md:text-2xl"> <FaDatabase/> </span>
+                      </div>
+                    
+                      <div className="flex bg-gray-800 w-max md:px-3 items-center py-2 px-2 md:py-2 rounded-full gap-2">
+                        <span className="text-sky-500 text-xl"> <SiTypescript/></span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -103,23 +99,23 @@ function Proyects() {
     }`}>
     <TbTargetArrow  />
     </span>
-                <div className="px-6 pb-6 pt-4">
-                  <img src="/image/webui.png" alt="web ui" />
-                  <h3 className="text-slate-200"> Web Ui</h3>
-                  <p className="text-slate-400">Clonacion de una pagina web</p>
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-                  <div className="flex bg-gray-800 md:px-3 items-center py-1 w-max px-2 md:py-2 rounded-2xl gap-2">
-                      <span className="text-2xl md:text-2xl text-orange-600"> <IoLogoHtml5 /> </span>
-                      <span className="uppercase font-medium text-sm">HTML</span>
-                    </div>
-
-                    <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 w-max rounded-2xl gap-2 ">
-                      <span className="text-yellow-500 text-lg md:text-2xl"> <IoLogoJavascript /> </span>
-                      <span className="uppercase font-medium text-xs">JavaScript</span>
-                    </div>
-
-                    
-                  </div>
+                <div className="px-6 pb-6 pt-4 grid grid-cols-6 gap-4">
+                  <img src="/image/webui.png" alt="web ui" className='col-span-2 w-full h-full object-cover ' />
+                 <div className='col-span-3'>
+                   <h3 className="text-slate-200"> Web Ui</h3>
+                   <p className="text-slate-400">Clonacion de una pagina web</p>
+                   <div className="flex gap-4 mt-4">
+                   <div className="flex bg-gray-800 md:px-3 items-center py-1 w-max px-2 md:py-2 rounded-full gap-2">
+                       <span className="text-2xl md:text-2xl text-orange-600"> <IoLogoHtml5 /> </span>
+                     </div>
+                  
+                     <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 w-max rounded-full gap-2 ">
+                       <span className="text-yellow-500 text-lg md:text-2xl"> <IoLogoJavascript /> </span>
+                     </div>
+                  
+                     
+                   </div>
+                 </div>
                 </div>
               </Link>
 
