@@ -18,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="es" className='scroll-smooth'>
       <head>
+        <meta name="google-site-verification" content="3rzetJTfC-WuE238IRExGbD06cCbqeVglBUwoYWieh8" />
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </head>
       <body className='scroll-smooth'>
