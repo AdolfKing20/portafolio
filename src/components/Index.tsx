@@ -18,7 +18,7 @@ function Index() {
               </Link>
             </button>
           </div>
-          <h2 className="text-2xl lato-black-italic md:text-3xl relative after:absolute after:w-32 after:h-1 after:-bottom-1 after:rounded-full after:right-1 w-max after:bg-sky-400">Hola!, soy rodridev</h2>
+          <h2 className="text-2xl lato-black-italic md:text-3xl relative after:absolute after:w-24 after:md:w-32 after:h-1 after:-bottom-1 after:rounded-full after:right-1 w-max after:bg-sky-400">Hola!, soy rodridev</h2>
           <h3 className="mt-4 text-xl lato-light-italic text-slate-200/80">Desarrollador Frontend de 23 años, con experiencia intermedia en tecnologías frontend y conocimientos básicos de backend. Como autodidacta, siempre busco nuevas oportunidades de aprendizaje y desafíos que impulsen mi crecimiento y contribuyan a soluciones innovadoras.</h3>
           <div className="flex gap-3 mt-4">
             <button className="py-1 px-2 bg-sky-950 w-max rounded-3xl border border-sky-600">
