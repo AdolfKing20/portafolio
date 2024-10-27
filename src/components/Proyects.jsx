@@ -13,7 +13,7 @@ function Proyects() {
     const [hovered, setHovered] = useState(false);
   return (
     <>
-        <section className="mt-16 w-full px-4 flex  items-center  mb-16 md:px-16" id="proyectos">
+        <section  className="mt-16 w-full px-4 flex  items-center  mb-16 md:px-16" id="proyectos">
           <div className="w-full">
             <div className="relative">
               <h2 className="text-white text-3xl font-bold before:absolute before:w-2 before:h-2 before:rounded-full before:bg-sky-500 before:bottom-[.5rem] before:left-[9.28rem]">Proyectos</h2>
