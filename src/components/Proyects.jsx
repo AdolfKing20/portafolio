@@ -121,6 +121,38 @@ function Proyects() {
 
 
               {/* Fin card */}
+              {/* card */}
+
+
+              <Link href={"https://postres-tienda.soyrodri.dev/"} target="_blank" className="block relative group border-2 border-gray-700 hover:border-gray-300/30 rounded-xl shadow_translate-transition hover:sm:shadow  sm:hover:-translate-y-1 text-gray-200 " onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}>
+    <span className={`text-gray-500 text-2xl  absolute right-4 top-3 transition-all ${
+      hovered ? 'block' : 'hidden'
+    }`}>
+    <TbTargetArrow  />
+    </span>
+                <div className="px-6 pb-6 pt-4 grid grid-cols-6 gap-4">
+                  <img src="/image/postres.png" alt="web ui" className='col-span-2 w-full h-full object-cover ' />
+                 <div className='col-span-3'>
+                   <h3 className="text-slate-200"> Tienda de Postre</h3>
+                   <p className="text-slate-400">Challenge FrontEnd Mentor</p>
+                   <div className="flex gap-4 mt-4">
+                   <div className="flex bg-gray-800 md:px-3 items-center py-1 w-max px-2 md:py-2 rounded-full gap-2">
+                       <span className="text-2xl md:text-2xl text-orange-600"> <IoLogoHtml5 /> </span>
+                     </div>
+                  
+                     <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 w-max rounded-full gap-2 ">
+                       <span className="text-yellow-500 text-lg md:text-2xl"> <IoLogoJavascript /> </span>
+                     </div>
+                  
+                     
+                   </div>
+                 </div>
+                </div>
+              </Link>
+
+
+              {/* Fin card */}
 
 
             </div>
