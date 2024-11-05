@@ -89,7 +89,7 @@ function Experience() {
           07 de diciembre del 2023
         </time>
         <h3 className="font-semibold text-quin">Actualmente</h3>
-        <p className="mb-4 text-sm font-normal text-sixth opacity-75"> Consegui mi primer trabajo como desarrollador freelance, y sigo aprendiendo nuevas habidades </p>
+        <p className="mb-4 text-sm font-normal text-sixth opacity-75"> Sigo aprendiendo nuevas habidades </p>
 
       </div>
     </li>
