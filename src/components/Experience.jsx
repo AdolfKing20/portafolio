@@ -24,8 +24,8 @@ function Experience() {
         <time className="mb-1 text-sm font-normal leading-none text-sixth opacity-50">
           27 de febrero del 2023
         </time>
-        <h3 className="font-semibold text-quin">Comienzo y aprendizaje</h3>
-        <p className="mb-4 text-sm font-normal text-sixth opacity-75">Me inscribi en el curso de diplomatura en iniciación al desarollo web, donde aprendi... </p>
+        <h3 className="font-semibold text-quin md:text-xl">Comienzo y aprendizaje</h3>
+        <p className="mb-4 text-sm md:text-base font-normal text-sixth opacity-75">Me inscribi en el curso de diplomatura en iniciación al desarollo web, donde aprendi... </p>
         <div className="grid grid-cols-2 gap-4 w-full">
           <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2 w-full">
             <span className="text-orange-500 text-xl md:text-2xl"> <FaHtml5 /> </span>
@@ -55,8 +55,8 @@ function Experience() {
         <time className="mb-1 text-sm font-normal leading-none text-sixth opacity-50">
           07 de agosto del 2023
         </time>
-        <h3 className="font-semibold text-quin">Nuevo comienzo</h3>
-        <p className="mb-4 text-sm font-normal text-sixth opacity-75"> Me volvi a inscribir en otro curso diferente donde pude aprender a manejar nuevas habilidades como desarrollador web </p>
+        <h3 className="font-semibold text-quin md:text-xl">Nuevo comienzo</h3>
+        <p className="mb-4 text-sm md:text-base font-normal text-sixth opacity-75"> Me volvi a inscribir en otro curso diferente donde pude aprender a manejar nuevas habilidades como desarrollador web </p>
         <div className="grid grid-cols-2 gap-4 w-full">
 
           <div className="flex bg-gray-800 md:px-3 items-center py-1 px-2 md:py-2 rounded-2xl gap-2 w-full">
@@ -88,8 +88,8 @@ function Experience() {
         <time className="mb-1 text-sm font-normal leading-none text-sixth opacity-50">
           07 de diciembre del 2023
         </time>
-        <h3 className="font-semibold text-quin">Actualmente</h3>
-        <p className="mb-4 text-sm font-normal text-sixth opacity-75"> Sigo aprendiendo nuevas habidades </p>
+        <h3 className="font-semibold text-quin md:text-xl">Actualmente</h3>
+        <p className="mb-4 text-sm md:text-base font-normal text-sixth opacity-75"> Sigo aprendiendo nuevas habidades </p>
 
       </div>
     </li>
